@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Admission Form</title>
+    <link rel="stylesheet" href="form_style.css">
+</head>
+<body>
+
+    <h1>JSPM's Rajarshi Shahu College of Engineering</h1>
+    <h3>Admission Form 2025</h3>
+
+    <img src="college.png" alt="College Image" width="300">
+
+    <p>Please fill the admission form carefully. All fields are mandatory.</p>
+
+    <h4>Available Branches</h4>
+    <ul>
+        <li>Computer Engineering</li>
+        <li>IT Engineering</li>
+        <li>Mechanical Engineering</li>
+        <li>Civil Engineering</li>
+    </ul>
+
+    <a href="https://www.jspmrscoe.edu.in/" target="_blank">
+        Visit Official Website
+    </a>
+
+    <br><br>
+
+    <table border="1">
+        <tr>
+            <th>Course</th>
+            <th>Duration</th>
+            <th>Fees</th>
+        </tr>
+        <tr>
+            <td>B.Tech</td>
+            <td>4 Years</td>
+            <td>₹1,20,000</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>Student Details</legend>
+
+            Name:
+            <input type="text" name="name"><br><br>
+
+            Email:
+            <input type="email" name="email"><br><br>
+
+            Mobile:
+            <input type="tel" name="mobile"><br><br>
+
+            Gender:
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <br><br>
+
+            Branch:
+            <select>
+                <option>Computer</option>
+                <option>IT</option>
+                <option>Mechanical</option>
+                <option>Civil</option>
+            </select>
+            <br><br>
+
+            Address:
+            <textarea rows="3" cols="30"></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
